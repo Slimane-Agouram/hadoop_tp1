@@ -1,0 +1,21 @@
+
+Explication:
+
+---Le probléme consiste à faire deux passes Map reduce.
+---Une passe d'éclatement des sommets, calcul des degrés élémentaires de chaque sommet TOUT EN SUAVEGARDANT les lisaisons d'arcs de départ.
+---Ces liaisons là seront donc passés dans une deuxiéme passe MapReduce de façon à regouper les degrés élémentaires précedants correspondants à un arc.
+---Effectivement, j'ai utilisé la sortie du Mapreduce1 en tant que Entrée du MapReduce2 pour retrouver la soultion finale souhaitée.
+
+
+Utilisation du code et exécution:
+
+---Merci d'executer le fichier "execute_me.sh" (via un ./execute_me.sh)q ui permet de compiler, empacketer en jar et executer les deux Map/Reduce.
+---Il premet aussi de nettoyer le sub-driectory de tous les jars generées et classes erronées ...
+---J'ai aussi prévu une prévisulaisation directe du fichier de sortie final (s'ouvre en vi sur le terminal).
+
+
+
+Crédit: 
+
+---Slimane AGOURAM 
+---ENSIIE 3A - 2014/2015
